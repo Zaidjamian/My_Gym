@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-toggler {
+    color: #fff;
+    background-color: #F36100;
+    font-size: 2rem;
+    padding: 3px 8px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    color: #F36100;
+    height: 5%;
+    top: 300px;
+    width: 15%;
+    bottom: 0px;
+
+}
+
+.main_nav {
+    background-color: rgb(34, 33, 33);
+}
+
+
+.main_icons ul li a:hover {
+    color: #F36100 !important;
+}
+
+.main_icons ul li {
+    padding: 0px 7px;
+}
+
+.banner {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.services {
+    padding-top: 110px;
+    font-size: 70px;
+    color: #F36100;
+}
+
+.hero {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(50, 42, 42, 0.5), rgba(44, 36, 36, 0.5)), url(images/body_pic1.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center center;
+
+}
+
+.team-title .section-title {
+    text-align: left;
+    float: left;
+}
+
+.section-title {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.section-title span {
+    font-size: 16px;
+    color: #f36100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-title h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.primary-btn {
+    background: transparent;
+    border: 2px solid #f36100;
+    float: right;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 17px 30px 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+.col-lg-12 a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.col-lg-12 a:hover {
+    background: #F36100;
+}
+
+.trainee_section {
+    background-color: #151515;
+}
+
+.trainer_name h3 {
+    color: #F36100;
+    font-weight: 800;
+}
+
+.trainer_name span {
+    color: #040202;
+    font-weight: 700;
+}
+.reach {
+    background-color: #151515 !important;
+    padding: 30px 60px;
+}
+
+.gt-text {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.gt-text i {
+    float : left;
+    font-size: 30px;
+    color: #ffffff;
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    background: #f36100;
+    border-radius: 50%;
+    line-height: 64px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.gt-text p {
+    overflow: hidden;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.main_text {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.content_set {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #0a0a0a;
+    padding: 30px 0;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main_links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.main_links li a:hover {
+    color: #f36100;
+}
+
+footer p {
+    font-size: 15px;
+    color: #fff;
+
+}
+
+footer ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.fa-angles-right {
+    color: #F36100;
+    margin-right: 5px;
+}
+
+/* For tablet view  */
+@media only screen and (min-width: 568px) and (max-width:992) {
+
+    .trainee_section .container .row .col-lg-12 a {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+/* For mobile view  */
+@media only screen and (min-width: 200px) and (max-width:567px) {
+
+    .trainee_section .container .row .col-lg-12 a {
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+    .reach {
+        padding: 25px 9px;
+    }
+    .reach {
+        padding: 25px 9px;
+    }
+
+    .content_set {
+        width: 100%;
+        margin: auto;
+    }
+}
